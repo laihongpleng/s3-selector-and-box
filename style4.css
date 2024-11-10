@@ -1,0 +1,68 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height of viewport */
+    margin: 0;
+  }
+  
+  /* Profile Card Styling */
+  .profile-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 15px; /* Rounded corners */
+    width: 300px; /* Fixed width */
+    padding: 20px; /* Spacing inside the card */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the lifted effect */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  /* Profile Image Styling */
+  .profile-img {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    border-radius: 50%; /* Circular shape */
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  /* Profile Name Styling */
+  .profile-name {
+    font-size: 1.5em; /* Larger font size */
+    margin-bottom: 10px; /* Space below the name */
+    color: #2c3e50; /* Dark color for the name */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Bio Styling */
+  .bio {
+    font-size: 1em; /* Normal font size */
+    color: #7f8c8d; /* Grey text for the bio */
+    line-height: 1.5; /* Improve readability */
+    margin-bottom: 20px; /* Space below the bio */
+  }
+  /* Button Styling */
+  .btn-learn-more {
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    /*font-size: 1em; /* Normal font size */
+    
+  }
+  
+  /* Hover effect for the button */
+  .btn-learn-more:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: translateY(-3px); /* Lift the button slightly */
+  }
+  
+  /* Hover effect for the profile card */
+  .profile-card:hover {
+    transform: translateY(-10px); /* Lift the entire card when hovered */
+  }
+  

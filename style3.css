@@ -1,0 +1,24 @@
+/* TODO */
+.btn{
+    background-color: rgb(216, 152, 190) ;
+    padding:20px ;
+    width: 300px;
+    height: 100px;
+    margin: 10px 20px 10px 20px;
+    border-color: black ;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #87116a;          /* Darker background color on hover */
+    transform: translateY(-10px);         /* Slight zoom effect */
+
+}
+.btn:hover {
+    background-color: #a31991; /* Darker blue on hover */
+    transform: translateY(-3px); /* Lift the button slightly */
+    cursor: pointer;
+  }
+  
